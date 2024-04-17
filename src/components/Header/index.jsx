@@ -22,7 +22,7 @@ function Header({ onAddCard }) {
     <>
       <div className="sectionOne">
         <Typography level="h2" margin="center" textColor="#0175e9">
-          What is Lorem Ipsum?
+          Form-App-React
         </Typography>
         <Stack spacing={1} mt="50px">
           <div className="searchArea">
@@ -33,7 +33,7 @@ function Header({ onAddCard }) {
               required
             />
             <Input
-              placeholder="Enter Image URL (Optional)"
+              placeholder="Enter Image URL..."
               value={imageUrl}
               onChange={(e) => setImageUrl(e.target.value)}
             />
