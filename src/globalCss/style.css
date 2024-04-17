@@ -1,0 +1,21 @@
+body {
+  background-color: #101418;
+}
+.sectionOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchArea {
+  display: flex;
+  gap: 12px;
+}
+.cardArea {
+  display: flex;
+  max-width: fit-content;
+  padding: 50px;
+  flex-wrap: wrap;
+  gap: 50px;
+}
